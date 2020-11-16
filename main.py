@@ -23,8 +23,9 @@
 
 from __future__ import print_function
 
-#CONFIG PARAM. Are you onsite? (True or False). You can edit this. Must be True if you are at school.
-onsite = False #⚠⚠⚠ Do not add any quotes around it, must be a boolean. ⚠⚠⚠
+#CONFIG PARAM. Are you onsite? (True or False). You can edit this. Must be True if you are at school. This will be overridden by argument "-l"
+onsite = True #⚠⚠⚠ Do not add any quotes around it, must be a boolean. ⚠⚠⚠
+
 
 #Timer + Time Difference
 import datetime
@@ -47,13 +48,32 @@ from bs4 import BeautifulSoup
 import lxml
 
 #Misc, like for example:
-import sys #Nessecary for Google Api.
+import sys #Nessecary for Google Api & Getting Arguments
 import os #Get terminal's size, creating folder & temp file.
+import getopt #Get Arguments
 
 #DO NOT EDIT. Declaring Variable for later use. Needed to make comparaison between ongoing and upcoming classes.
 subjectDone = ""
 ongoing = "first"
 
+
+try:
+    opts, args = getopt.getopt(sys.argv[1:], "l:") 
+except: 
+    ok="ok"
+ 
+for opt, arg in opts: 
+    if opt in ['-l']: 
+        if arg == "school":
+            onsite = True
+        elif arg == "home":
+            onsite = False
+
+
+if (onsite):
+    print("\n\033[92m%s\033[0m\n" % ("[*] You are staying at School."))
+else:
+    print("\n\033[92m%s\033[0m\n" % ("[*] You are staying at Home."))
 
 
 #Read-only access to calendar
