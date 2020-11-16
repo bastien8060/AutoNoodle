@@ -215,7 +215,11 @@ def checkNextName(): #Checks next class' name
     events = events_result.get('items', [])
 
     if not events:  #If there is no event, then it means the user must double check that everything is working on their side (Google Account)
-        print("\n\033[91m%s\033[0m" % ('No upcoming events found. Check that you have connected your Google Calendar with your timetable on the right account, then try again.'))
+        print("\n\033[91m%s\033[0m" % ('[*] No upcoming events found. Check that you have connected your Google Calendar with your timetable on the right account, then try again.'))
+        sleep(1)
+        print("\n\033[91m%s\033[0m" % ('[*] If you need to Log-Out, delete the file ".token". This file might be hidden on some systems.\n\n'))
+        sleep(2)
+        exit(0)
     for event in events:  #Check event detail, from soonest, to tardliest
         if not "Lunch" in event['summary']:  #If the next even is "Lunch", skip to the next one.
             return event['summary'] #If not then return the event name
