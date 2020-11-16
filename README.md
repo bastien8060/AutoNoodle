@@ -21,6 +21,8 @@ This commands slightly varies on Windows.
 
 Otherwise, you may download the code as a zip archive, here [(download)](https://github.com/bastien8060/AutoNoodle/archive/main.zip)
 
+If you move, the `main.py` file, to another directory, be sure to include with it the `.apicreds` file with it, as it contains details to connect to the api. Don't forget the `.token` file, if you are logged in already. These files might be hidden for some operating systems, as they start with a `"."`.
+
 #### Screen
 
 For Linux/MacOs, it is recommended to run it inside a Screen/Tmux Session, in order to leave the script running even when your terminal or ssh connection gets closed, for durability & stability. To start a screen in the background, here is an example. 
