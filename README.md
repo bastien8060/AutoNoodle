@@ -19,7 +19,7 @@ $ python3 ./main.py
 ```
 This commands slightly varies on Windows.
 
-Otherwise, you may download the code as a zip archive, here [(download)](https://github.com/bastien8060/AutoNoodle/archive/main.zip)
+Otherwise, you may download the code as a zip archive, here [(download)](https://github.com/bastien8060/AutoNoodle/archive/main.zip){:target="_blank"}
 
 ### Arguments!
 If you wish, and if you are running it with the Terminal or your IDE supports it, you can supply an argument, overriding, the default location. (home/school)
@@ -33,12 +33,15 @@ AutoNoodle Uses Many Modules to run. Here is a list.
 
 | Plugin | README |
 | ------ | ------ |
-| Pickle | [PyPi: Pickle5](https://pypi.org/project/pickle5/) |
-| Google API | [Read More](https://developers.google.com/calendar/quickstart/python) |
-| TQDM | [PyPi: Tqdm](https://pypi.org/project/tqdm/) |
-| Beautiful Soup 4 | [PyPi: Bs4](https://pypi.org/project/bs4/) |
-| LXML | [PyPi: Lxml](https://pypi.org/project/lxml/) |
-| Requests | [PyPi: Requests](https://pypi.org/project/requests/) |
+| Pickle | [PyPi: Pickle5
+
+
+https://pypi.org/project/pickle5/) |
+| Google API | [Read More](https://developers.google.com/calendar/quickstart/python){:target="_blank"} |
+| TQDM | [PyPi: Tqdm](https://pypi.org/project/tqdm/){:target="_blank"} |
+| Beautiful Soup 4 | [PyPi: Bs4](https://pypi.org/project/bs4/){:target="_blank"} |
+| LXML | [PyPi: Lxml](https://pypi.org/project/lxml/){:target="_blank"} |
+| Requests | [PyPi: Requests](https://pypi.org/project/requests/){:target="_blank"} |
 
 
 To install them:
@@ -51,7 +54,7 @@ $ pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
  - Write Support for Other Apis such as (© 2020) Microsoft's Outlook Calendar
 
 ### More about (© 2020) Google Calendar API
-See [Read More](https://developers.google.com/calendar/)
+See [Read More](https://developers.google.com/calendar/){:target="_blank"}
 
 License
 ----
