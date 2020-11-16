@@ -35,7 +35,7 @@ If you wish, and if you are running it with the Terminal or your IDE supports it
 
 Else, if you wish to add the argument manually, go ahead and edit the onsite variable, at the beginning of the file.
 
-In order for the script to know your timetable, it must find it in your Calendar. Enter your timetable there. Like this: [Screenshot](https://ibb.co/B3FMTzb)
+In order for the script to know your timetable, it must find it in your Calendar. Enter your timetable there. Like this: [Screenshot](https://ibb.co/B3FMTzb). Lunchtime should be named like `Lunch`, without any extra space and without forgetting the capital letter.
 
 ### Modules and Pip
 
