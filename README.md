@@ -21,11 +21,21 @@ This commands slightly varies on Windows.
 
 Otherwise, you may download the code as a zip archive, here [(download)](https://github.com/bastien8060/AutoNoodle/archive/main.zip)
 
+### First Run
+
+AutoNoodle is based on Google Calendar Api, therefor, you will need to connect to the API. The terminal should attempt to open an url, in order to let you login with your prefered account.
+
+If no url, is opened, a url should display at least. If still not, you may open a ticket/issue on the repository.
+
+Your Google Account Password is never accessed or stored anywhere. The Python script only gets a token, that can only be used to view Calendars Events. That special token is stored in the file `.token`. You may "Log-Out" by deleting that file.
+
 ### Arguments!
 If you wish, and if you are running it with the Terminal or your IDE supports it, you can supply an argument, overriding, the default location. (home/school)
   - **"-l": school/home.** It specifies the script where you are, so it can notify the attendance.
 
 Else, if you wish to add the argument manually, go ahead and edit the onsite variable, at the beginning of the file.
+
+In order for the script to know your timetable, it must find it in your Calendar. Enter your timetable there. Like this: [Screenshot](https://ibb.co/B3FMTzb)
 
 ### Modules and Pip
 
