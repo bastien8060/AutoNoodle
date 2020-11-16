@@ -33,10 +33,7 @@ AutoNoodle Uses Many Modules to run. Here is a list.
 
 | Plugin | README |
 | ------ | ------ |
-| Pickle | [PyPi: Pickle5
-
-
-https://pypi.org/project/pickle5/) |
+| Pickle | [PyPi: Pickle5](https://pypi.org/project/pickle5/) |
 | Google API | [Read More](https://developers.google.com/calendar/quickstart/python) |
 | TQDM | [PyPi: Tqdm](https://pypi.org/project/tqdm/) |
 | Beautiful Soup 4 | [PyPi: Bs4](https://pypi.org/project/bs4/) |
