@@ -27,10 +27,12 @@ If you move, the `main.py` file, to another directory, be sure to include with i
 
 For Linux/MacOs, it is recommended to run it inside a Screen/Tmux Session, in order to leave the script running even when your terminal or ssh connection gets closed, for durability & stability. To start a screen in the background, here is an example. 
 ```sh
-$ screen -U python3 ./main.py #Launches it in the background
+$ screen -c ./screenrc -U python3 ./main.py #Launches it in the background and removes inputs to it (to leave it undisturbed). 
 $ screen -r #Brings it back to the forground to monitor it, (aka. It re-attaches the screen).
 ```
-Press `ctrl+a+d`, in order to bring a screen session back to the background, from the foreground, (aka. To detach the screen).
+Press `[Ctrl]+[A]+[D]`, in order to bring a screen session back to the background, from the foreground, (aka. To detach the screen).
+
+Enter `[Ctrl]+[G]`, to kill that session (with the screen).
 
 
 ### First Run
