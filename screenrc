@@ -27,6 +27,9 @@ bindkey "x" echo 'Enter [Ctrl]+[G] to exit'
 bindkey "y" echo 'Enter [Ctrl]+[G] to exit'
 bindkey "z" echo 'Enter [Ctrl]+[G] to exit'
 
+bindkey "~" echo 'Enter [Ctrl]+[G] to exit'
+bindkey "#" echo 'Enter [Ctrl]+[G] to exit'
+
 bindkey ";" echo 'Enter [Ctrl]+[G] to exit'
 bindkey ":" echo 'Enter [Ctrl]+[G] to exit'
 bindkey "<" echo 'Enter [Ctrl]+[G] to exit'
